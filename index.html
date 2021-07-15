@@ -18,15 +18,23 @@
         >
             <a-assets>
                 <a-asset-item
+                    id="animated-asset01"
+                    src="assets/asset01.glb"
+                ></a-asset-item>
+                <a-asset-item
                     id="animated-asset03"
                     src="assets/asset03.glb"
                 ></a-asset-item>
+                <a-asset-item
+                    id="animated-asset03"
+                    src="assets/asset03.glb"
+                ></a-asset-item>  
             </a-assets>
 
                 <a-entity
                     look-at="[gps-camera]"
                     animation-mixer="loop: repeat"
-                    gltf-model="#animated-asset03"
+                    gltf-model="#animated-asset01"
                     scale="0.3 0.3 0.3"
                     gps-entity-place="latitude: 48.08891; longitude: 11.15243;"
                 ></a-entity>
